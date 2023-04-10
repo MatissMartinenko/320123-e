@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework_30.03.23.</title>
+    <link rel="stylesheet" href="/30.03.HomeWork/style.css"
+</head>
+<body>
+    <h1>1. Создать многоуровневый список:</h1>
+    <ol type="I">
+        <li>мой список</li>
+        <li>мой список</li>
+        <li>мой список</li>
+        <li>мой список</li>
+        <li>мой список</li>
+        <li>мой список</li>
+        <li>мой список</li>
+
+    </ol>
+
+    <h2>2. Создать таблицу с помощью rowspan, colspan:</h2>
+<table>
+    <caption></caption>
+    <tr align="center">
+        <th>Name</th>
+        <th>Surname</th>
+        <th>Age</th>
+        <th>Location</th>
+        <th>Phone brand</th>
+        <th colspan="2">Social media</th>
+    </tr>
+    <tr  align="center">
+        <td>Matīss</td>
+        <td>Martiņenko</td>
+        <td>26</td>
+        <td>Riga, Latvia</td>
+        <td>Samsung</td>
+        <td rowspan="2">Facebook</td> 
+        <td>Linkedink</td>
+    </tr>
+
+<tr  align="center">
+    <td>Jānis</td>
+    <td>Liepa</td>
+    <td>33</td>
+    <td>Dubli, Ireland</td>
+    <td rowspan="3">Iphone</td>
+    <td>TikTok</td>
+</tr>
+
+<tr  align="center">
+    <td>Viesturs</td>
+    <td>Kalniņš</td>
+    <td>29</td>
+    <td rowspan="2">Tallin, Estonia</td>
+    <td>Instagram</td>
+    <td>Facebook</td>
+</tr>
+
+<tr  align="center">
+    <td>Zane</td>
+    <td>Kalniņa</td>
+    <td>27</td>
+    <td>Tiktok</td>
+    <td>Instagram</td>
+</tr>
+</table>
+
+<!-- количество ячеек
+справа (для colspan) или снизу (для rowspan), которые нужно объединить с текущей.
+Отсчёт начинается с текущей ячейки, к которой применено свойство. -->
+
+
+<!-- Строки таблицы создаются с помощью элемента <tr>.
+Количество горизонтальных строк таблицы определяется количеством элементов <tr></tr>.
+Элемент <th> создаёт заголовок столбца — специальную ячейку, текст в которой выделяется полужирным.
+Элемент <td> создаёт ячейки таблицы, внутрь которых помещаются данные таблицы. Элементы <td></td>,
+расположенные в одном ряду, определяют количество ячеек в строке таблицы.
+Элемент <caption> создает подпись таблицы. Добавляется непосредственно после тега <table>, вне строки или ячейки. -->
+</body>
+</html>

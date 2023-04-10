@@ -1,0 +1,25 @@
+h1{
+    margin: 70px
+}
+
+ol{
+    margin: 70px;
+    font-size: 180%;
+}
+
+h2{
+    margin: 90px;
+}
+
+table{
+    border: 1px solid black;
+    margin: 90px;
+    /* padding: 5px; */
+    font-size: 150%;
+    background-color: rgb(207, 171, 241);
+}
+
+.tr, th, td{
+    padding: 5px;
+    border: 1px solid  black
+}
